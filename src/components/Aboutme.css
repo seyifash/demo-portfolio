@@ -1,0 +1,203 @@
+.hero1 {
+    width: 100%;
+    position: relative;
+    display: flex;
+    padding: 0 20px;
+    margin-top: 90px;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+}
+.hero1 .profile-Img {
+    position: absolute;
+    width: 1000px;
+    height: 800px;
+    border-top-right-radius: 500px;
+    border-bottom-right-radius: 500px;
+    left: -20%;
+    background-image: url("https://plus.unsplash.com/premium_photo-1663040543387-cb7c78c4f012?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+}
+.hero1 .content1 {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    justify-content: center;
+    margin-top: 50px;
+    z-index: 10;
+}
+
+.hero1 .content1 .bit-more {
+    margin: 0 auto;
+    text-align: center;
+    background: transparent;
+    color: white;
+    margin-bottom: 40px;
+    padding: 30px 10px;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.hero1 .content1 .bit-more::after {
+    display: block;
+    content: "";
+    width: 150px;
+    background-color: white;
+    position: absolute;
+    top: 22%;
+    right: 44%;   
+    height: 5px;
+}
+
+.hero1 .content1 .more {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color:  #1a1a1a;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.87);
+    font-size: 25px;
+    padding: 20px 30px 30px 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px 5px #1a1a1a;
+    line-height: 40px;
+    text-align: center;
+}
+.btn-contain {
+    margin: 0 auto;
+    margin-top: 40px;
+}
+@media screen and (max-width: 1040px) {
+    .hero1 {
+        height: 1000px;
+    }
+    .hero1 .profile-Img {
+        width: 500px;
+        height: 1000px;
+        border-top-right-radius: 500;
+        border-bottom-right-radius: 500px;
+        left: 0;
+    }
+    .hero1 .content1 {
+        max-width: 600px;
+        margin-top: 50px;
+    }
+    .hero1 .content1 .bit-more {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+    .hero1 .content1 .bit-more::after {
+        top: 32%;    
+        left: 40%;
+    }
+    .btn-contain {
+        display: initial;
+    }
+}    
+
+@media screen and (max-width: 640px) {
+    .hero1 {
+        height: 800px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .hero1 .profile-Img {
+        width: 400px;
+        height: 800px;
+        border-top-right-radius: 400;
+        border-bottom-right-radius: 400px;
+        left: 0;
+    }
+    .hero1 .content1{
+        max-width: 500px;
+        margin-bottom: 150px;
+    }
+    .hero1 .content1 .bit-more {
+        font-size: 1.7rem;
+        margin-bottom: 10px;
+    }
+    .hero1 .content1 .bit-more::after {
+        top: 30%;    
+        left: 17%;
+    }
+    .hero1 .content1 .more {
+        font-size: 16px;
+        padding: 5px 15px 15px 15px;
+        border-radius: 10px;
+        line-height: 20px;
+    }
+    .hero1 .content1 .more {
+        margin-right: 15px;
+    }
+}
+@media screen and (max-width: 390px) {
+    .hero1 {
+        height: 600px;
+    }
+    .hero1 .profile-Img {
+        width: 300px;
+        height: 600px;
+        border-top-right-radius: 300px;
+        border-bottom-right-radius: 300px;
+        left: 0;
+    }
+    .hero1 .content1 {
+        max-width: 400px;
+        margin-bottom: 200px;
+    }
+    .hero1 .content1 .bit-more {
+        font-size: 1rem;
+        padding: 10px 10px;
+    }
+    .hero1 .content1 .bit-more::after {
+        top: 17%;    
+        left: 16%;
+        width: 100px;
+    }
+    .hero1 .content1 .more {
+        font-size: 0.7rem;
+        padding: 2px 5px 5px 5px;
+        border-radius: 10px;
+        line-height: 20px;
+    }
+    .hero1 .content1 .more {
+        margin-right: 15px;
+    }
+    
+}
+@media screen and (max-width: 477px) {
+    .hero1 {
+        height: 600px;
+    }
+    .hero1 .profile-Img {
+        width: 300px;
+        height: 600px;
+        border-top-right-radius: 300px;
+        border-bottom-right-radius: 300px;
+        left: 0;
+    }
+    .hero1 .content1 {
+        max-width: 400px;
+        margin-bottom: 200px;
+    }
+    .hero1 .content1 .bit-more {
+        font-size: 1rem;
+        padding: 10px 10px;
+    }
+    .hero1 .content1 .bit-more::after {
+        top: 18%;    
+        left: 16%;
+        width: 100px;
+    }
+    .hero1 .content1 .more {
+        font-size: 0.7rem;
+        padding: 2px 5px 5px 5px;
+        border-radius: 10px;
+        line-height: 20px;
+    }
+    .hero1 .content1 .more {
+        margin-right: 15px;
+    }
+}

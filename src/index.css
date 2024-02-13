@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Outfit:wght@100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+body {
+    background:  #1a1a1a;
+    overflow-x: hidden;
+}
+h1, h4, p, a {
+    color: #fff;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+.btn {
+    padding: 12px 28px;
+    font-size: 14px;
+    text-transform: uppercase;
+    background: #FFF;
+    color: #1a1a1a;
+    border: none;
+    font-weight: 800;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background: black;
+    transition: 0.3s;
+    color: #fff;
+}

@@ -1,0 +1,106 @@
+.contact {
+    margin-top: 90px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 20px;
+}
+.contact h2 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding: 10px 30px 40px 10px;
+}
+.contact .contain-contact {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    height: 400px;
+}
+.contact .contain-contact .contact-address {
+    height: 100%;
+    padding: 5px 10px;
+}
+.contact .contain-contact .contact-address .Ema-git{
+    width: 100%;
+    border: 0.1rem solid black;
+    height: 48%;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    background: rgb(46, 46, 46);
+}
+.contact .contain-contact .contact-address .Ema-git .ema-git-div {
+    display: flex;
+    padding: 15px 15px;
+    font-size: 2rem;
+    border-radius: 10px;
+    background: #000;
+}
+
+.contact .contain-contact .form-sect {
+    padding: 5px 10px;
+    height: 100%;
+
+}
+.contact .contain-contact .form-sect form{
+    width: 100%;
+    height: 100%
+}
+.contact .contain-contact .form-sect .form .name {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 15%;
+    margin-bottom: 2%;
+}
+.contact .contain-contact .form-sect .form .name input {
+    width: 47%;
+    background: rgb(46, 46, 46);
+    border-radius: 7px;
+    border: 0.1rem solid black;
+    padding-left: 30px;
+    height: 100%;
+}
+.contact .contain-contact .form-sect .form input {
+    width: 100%;
+    height: 15%;
+    background:rgb(46, 46, 46);
+    border-radius: 7px;
+    border: 0.1rem solid black;
+    padding-left: 30px;
+    margin-bottom: 2%;
+}
+.contact .contain-contact .form-sect .form textarea {
+    width: 100%;
+    height: 50%;
+    background: rgb(46, 46, 46);
+    border-radius: 7px;
+    border: 0.1rem solid black;
+    padding-left: 30px;
+    margin-bottom: 2%;
+    padding-top: 20px;
+    outline: none;
+    font-size: 20px;
+}
+.contact .contain-contact .form-sect .form .btn-2 {
+    width: 100%;
+    height: 14%;
+    background: rgb(46, 46, 46);
+    border-radius: 7px;
+    border: 0.1rem solid black;
+    font-size: 16px;
+    color: white;
+}
+
+
+.contact .contain-contact .form-sect .form .btn-2:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
